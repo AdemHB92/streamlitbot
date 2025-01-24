@@ -24,7 +24,7 @@ cd Documents/git
 mkdir projet_chatbot
 cd projet_chatbot
 git init
-git clone https://github.com/AdemHB92/test.git
+git clone https://github.com/AdemHB92/streamlitbot.git
 ```
 ### 2. Réalisez le workflow
 
@@ -34,7 +34,7 @@ git add .
 git commit -m "initial commit"
 git status
 git remote -v
-git remote add origin https://github.com/AdemHB92/test.git
+git remote add origin https://github.com/AdemHB92/streamlitbot.git
 git push origin master ( Monsieur pour votre cas c'est main je pense!)
 
 ```
