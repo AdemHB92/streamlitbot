@@ -403,7 +403,7 @@ streamlit run chatboxgpt.py
 # Selectbox
 git branch selectbox
 git checkout selectbox
-streamlit run chatbotgpt.py
+nano chatbotgpt.py
 
 git add .
 git commit -m "Ajout du selectbox"
@@ -412,11 +412,13 @@ git push origin selectbox
 
 git checkout main
 git merge selectbox
+streamlit run chatbotgpt.py
 
 # Slider
 git branch slider
 git checkout slider
-streamlit run chatbotgpt.py
+nano chatbotgpt.py
+
 
 git add .
 git commit -m "Ajout du slider"
@@ -425,4 +427,5 @@ git push origin slider
 
 git checkout main
 git merge slider
+streamlit run chatbotgpt.py
 ```
