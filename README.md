@@ -99,7 +99,7 @@ Pour chaque fonctionnalité, une nouvelle branche est créée. Voici un exemple 
 
 ### Version 1 : Chatbot basique
 
-1.Créer la branch version1
+1. Créer la branch version1
 
 ```bash
 git branch version1
@@ -246,7 +246,7 @@ git merge version3
     touch chatbotgpt.py
 ```
 
-2 . modifié le fichier requirements.txt
+2. modifié le fichier requirements.txt
 ```bash
 nano requirements.txt
 pip install -r requirements.txt
